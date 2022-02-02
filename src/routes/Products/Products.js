@@ -1,4 +1,3 @@
-import styles from "./Products.module.css";
 import Filters from "../../components/Filters/Filters";
 import ProductList from "../../components/ProductList/ProductList";
 
