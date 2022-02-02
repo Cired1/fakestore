@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars svg {
+  font-size: 1.5rem;
+}
+
+.stars span {
+  color: var(--stars-color);
+  font-size: 1rem;
+  margin-right: 0.25rem;
+}

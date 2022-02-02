@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+}
+
+.link {
+  color: var(--fg-secondary-color);
+}
+
+.counter {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+}

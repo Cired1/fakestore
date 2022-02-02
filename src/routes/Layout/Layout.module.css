@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: var(--min-height);
+  background-color: var(--bg-primary);
+}

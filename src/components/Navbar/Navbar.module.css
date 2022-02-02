@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.75rem auto;
+  width: 90vw;
+  max-width: var(--max-width);
+  background-color: var(--bg-secondary);
+}
+
+.list {
+  display: none;
+  gap: 2rem;
+}
+
+.item:after {
+  display: block;
+  content: "";
+  padding-bottom: 0.25rem;
+  border-bottom: solid 2px var(--fg-secondary-color);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.item:hover:after {
+  transform: scaleX(1);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: bold;
+  color: var(--fg-secondary-color);
+}
+
+.options {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.active {
+  color: aqua;
+}
+
+.inactive {
+  color: var(--fg-secondary-color);
+}
+
+@media screen and (min-width: 800px) {
+  .list {
+    display: flex;
+  }
+}

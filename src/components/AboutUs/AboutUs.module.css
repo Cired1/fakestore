@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--fg-primary-color);
+}
+
+.desc {
+  margin: 0 1rem;
+  min-width: 280px;
+  width: 50%;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--fg-primary-color);
+  line-height: 1.5;
+}
+
+.btnAboutUs {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: var(--bg-primary);
+  background-color: var(--fg-primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+.btnAboutUs:hover {
+  opacity: 0.8;
+}

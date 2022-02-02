@@ -1,0 +1,12 @@
+.btnMenu {
+  background: transparent;
+  border: transparent;
+  color: var(--fg-secondary-color);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .btnMenu {
+    display: none;
+  }
+}
